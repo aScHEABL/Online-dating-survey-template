@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title">Online Dating Survey Form</h1>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <p id="description" class="question">1. Please enter your email.</p>
+            <label id="email-label" for="email"></label>
+            <input type="email" name="email" id="email-label" placeholder="Enter your Email" required></input>
+            <p class="question">2. What online dating site or application do you use most often?</p>
+            <label for="favorite-dating-service"></label>
+            <input type="text" name="service" id="favorite-dating-service" placeholder="Enter your favorite service" required>
+            <p class="question">3. Please indicate your gender.</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="transgender" value="transgender">
+            <label for="transgender">Transgender</label>
+            <input type="radio" name="gender" id="non-binary" value="non-binary">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" name="gender" id="intersex" value="intersex">
+            <label for="intersex">Intersex</label>
+            <input type="radio" name="gender" id="secret" value="secret">
+            <label for="secret">I prefer not to say</label>
+            <p class="question">4. Please select the category that includes your age.<br>
+            <label for="age"></label>
+              <select name="age" id="age">
+                 <option value="18-24">18-24</option>
+                 <option value="25-34">25-34</option>
+                 <option value="35-44">35-44</option>
+                 <option value="45-54">45-54</option>
+                 <option value="55-older">55-older</option>
+              </select>
+            <p class="question">5. Do you pay for using dating app?</p>
+            <input type="radio" name="premium" id="pay" value="pay">
+            <label for="pay">Yes</label>
+            <input type="radio" name="premium" id="not-pay" value="not-pay">
+            <label for="not-pay">No</label>
+            <p class="question">6. In a typical week, how much of your do you spend in online dating site or app?</p>
+            <input type="radio" name="time" id="less-than-hours" value="less-than-hours">
+            <label for="less-than-hours">Less than hours</label>
+            <input type="radio" name="time" id="2-5-hours" value="2-5-hours">
+            <label for="2-5-hours">2-5 hours</label>
+            <input type="radio" name="time" id="6-10-hours" value="6-10-hours">
+            <label for="6-10-hours">6-10 hours</label>
+            <input type="radio" name="time" id="11-15-hours" value="11-15-hours">
+            <label for="11-15-hours">11-15hours</label>
+            <input type="radio" name="time" id="over-15-hours" value="over-15-hours">
+            <label for="over-15-hours">Over 15 hours</label>
+            <p class="question">7. Have you ever developed a relationship with someone from an online dating site or app?</p>
+            <input type="radio" name="relationship" id="relationship-yes" value="yes">
+            <label for="relationship-yes">yes</label>
+            <input type="radio" name="relationship" id="relationship-no" value="no">
+            <label for="relationship-no">no</label>
+            <p class="question">8. Online dating is an effective way to meet people</p>
+
+          </div>
+        </form>
+</body>
+</html>
